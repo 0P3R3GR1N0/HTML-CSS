@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+background-color: #9FBFBF;
+font-family: 'Times New Roman', Times, serif;
+}
+h1{
+ color: #574F73;   
+}
+h1#principal{
+    color: aqua;
+    text-align: center;
+    background-color:#574F73;   
+    ;
+    ;
+
+}
+h2{
+ color: #574F73;      
+    ;
+}
+.medio{
+    color: #f507d5;
+}
+.basico{
+    color: rgb(255, 255, 255);
+}
