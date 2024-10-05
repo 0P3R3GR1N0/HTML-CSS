@@ -8,16 +8,28 @@
         body{
             font-family: 'Times New Roman', Times, serif;
         }
+        h1{
+            text-align:center ;
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid black;
+            color: rgb(10, 10, 10);
+        }
 
         caption{
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: burlywood ;
+            background-color: rgb(179, 160, 136) ;
         }
 
         table{
             width: 500px;
+            position: relative;
+            border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(75, 72, 72, 0.452);
         }
 
         td,th{
@@ -29,6 +41,11 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray ;
+        }
 
         td.num{
             text-align: center;
@@ -37,7 +54,7 @@
 </head>
 <body>
    
-    <h1>tabelas grandes</h1>
+    <h1>TABELAS GRANDES</h1>
 
     <table>
         <caption>
@@ -45,8 +62,8 @@
         </caption>
         <thead>
             <tr>
-                <th>ESTADO</th>
-                <TH>POPULAÇÃO</TH>
+                <th scope="col">ESTADO</th>
+                <TH scope="col">POPULAÇÃO</TH>
             </tr>
             
         </thead>
@@ -55,7 +72,6 @@
                 <td>são paulo</td>
                 <td class="num">45 919 049</td>
             </tr>
-            <tr></tr>
                 <td>minas gerais</td>
                 <td class="num">21 168 791</td>
             </tr>
@@ -162,8 +178,8 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>toatal de habitantes</th>
-            <th class="num">210 147 125</th>
+            <th scope="row">toatal de habitantes</th>
+            <td class="num">210 147 125</td>
 
         </tfoot>
     </table>
