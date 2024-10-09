@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="cadastrado.php" method="post">
+
+        <p>
+            <label for="iesd">Estado:</label>
+            <select name="Estado" id="iesd">
+                <option value="BA">BAHIA</option>
+                <option value="DF">BRASILIA</option>
+                <option value="RJ">RIO DE JANEIRO</option>
+            </select>
+        </p>
+
+        <P>
+            <label for="ipro">Profisão:</label>
+            <input type="text" name="Profisão" id="ipro">
+        </P>
+
+        <p>
+            <label for="imsg">mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="25" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

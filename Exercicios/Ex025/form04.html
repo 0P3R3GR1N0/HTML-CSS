@@ -6,18 +6,31 @@
     <title>exemplo de formulario</title>
 </head>
 <body>
+    <h1>Telefone e E-mail</h1>
     <form action="cadastrado.php" method="get">
-        <p>
-            <label for="imael">E-mail</label>
-              <input type="email" name="email" id="imael">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Limpar">
-                
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <P>
+                <label for="iname">Nome</label>
+                <input type="text" name="nome" id="iname">
+            </P>
+            <p>
+                <label for="imael">E-mail</label>
+                  <input type="email" name="email" id="imael">
+            </p>
+            <p>
+                <label for="itel">telefone</label>
+                <input type="tel" name="tel" id="itel">
+            </p>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Limpar">
+            
+            </p>
+        
 
     </form>
     
 </body>
-</html>
+</htm
