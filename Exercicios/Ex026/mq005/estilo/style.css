@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+ body, html{
+    background-color: azure;
+ }
+ header{
+    background-color: aquamarine;
+ }
+ header > h1{
+    padding: 10px;
+    text-align: center;
+ }
+ menu{
+    display: block;
+ }
+ menu > ul{
+    list-style-type: none;
+ }
+ menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: azure;
+    border-top: 2px solid gray;
+ }
+ menu > ul > li > a:hover{
+    background-color: aqua;
+ }
+
+ article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+ }
