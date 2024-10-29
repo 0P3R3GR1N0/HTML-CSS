@@ -7,9 +7,61 @@
 }
 
 body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #618C70;
+    height: 100vh;
+    width: 100vw;
 
 }
 
 header{
+    padding: 10px;
+    background-color: #00635A;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     
+}
+header > h1{
+    border: 1px solid black;
+    flex: 0 0 200px;
+}
+nav{
+    border: 1px  solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    background-color: #010221;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    transition: backgroundcolor .5s;
+
+}
+
+main{
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+
+}
+h2{
+    text-align: center;
+    margin: 10px;
 }
